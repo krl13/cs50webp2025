@@ -1,0 +1,16 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.links{
+    display: flex;
+    justify-content: right;
+    align-items:end;
+    margin-bottom: 200px;
+}
+
+#imagespc{
+    width: 386px;
+}
