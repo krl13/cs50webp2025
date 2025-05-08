@@ -21,9 +21,33 @@
         <hr style="margin-top: 15px; background-color: #e0e0e0; border: none; height: 1px;">
         <p class="subheader">Find pages that contain...</p>
 
+        
+            <form action="https://www.google.com/search" method="get" target="_blank">
 
-        <form action="https://www.google.com/search" method="get" target="_blank">
-            
-        </form>
+                <div class="advform">
+                    <label for="as_q">all these words:</label>
+                    <input type="text" class="advinput" name="as_q" id="as_q"> 
+                </div>
+
+                <div class="advform">
+                    <label for="as_epq">this exact word or phrase:</label>
+                    <input type="text" class="advinput" name="as_epq" id="as_epq"> 
+                </div>
+
+                <div class="advform">
+                    <label for="as_oq">any of these words:</label>
+                    <input type="text" class="advinput" name="as_oq" id="as_oq"> 
+                </div>    
+
+                <div class="advform">
+                    <label for="as_eq">none of these words:</label>
+                    <input type="text" class="advinput" name="as_eq" id="as_eq"> 
+                </div>
+                <div class="advsubmit">
+                    <input type="submit" value="Search">
+                </div>
+                
+            </form>
+        </div>
     </body>
 </html>

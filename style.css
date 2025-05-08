@@ -137,4 +137,49 @@ a{
     margin-top: 45px;
     margin-left: 45px;
     color: #3c4043;
+    font-size: 18px;
+}
+
+.advform{
+    margin-left: 45px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    display: flex;
+    align-items: end;
+}
+
+.advinput{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 4px 10px;
+    width: 550px;
+    border: 1px solid #ccc;
+    
+    outline: none;
+    transition: box-shadow 0.2s ease-in-out;
+    font-size: 15px;
+}
+
+.advform label{
+    width: 200px;
+    text-align: left;
+}
+
+.advsubmit{
+    display: flex;
+    justify-content: right;
+    width: 835px;
+    margin-top: 30px;
+}
+
+.advsubmit input{
+    background: #1a73e8;
+    border: none;
+    color: white; 
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px;
+    
+    width: 100px;
 }
